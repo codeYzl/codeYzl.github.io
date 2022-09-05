@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>代码演示</title>
+      <link href="/2022/09/05/%E4%BB%A3%E7%A0%81%E5%9D%97%E6%BC%94%E7%A4%BA/%E6%BC%94%E7%A4%BA/"/>
+      <url>/2022/09/05/%E4%BB%A3%E7%A0%81%E5%9D%97%E6%BC%94%E7%A4%BA/%E6%BC%94%E7%A4%BA/</url>
+      
+        <content type="html"><![CDATA[<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><p>按时大萨达所大所多撒大所多</p><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><p>阿萨大师的<br>Bob has given Alice a necklace as her birthday gift. That necklace has 𝑁N crystals, 𝑀M of which catches her fancy. Formally, crystals with labels of 1..𝑁1..N are strung sequentially in a circle. And those catching her fancy are labelled 𝑛1,𝑛2,…,𝑛𝑀n1,n2,…,nM.</p><p>Alice would like the necklace to be divided into 𝑀M pieces. She asked Bob to sever the necklace into 𝑀M pieces. Each piece should consist of a sequence of crystals as in the original necklace (i.e., the crystal labels are contiguous, except that 11 following 𝑁N is accepted) and should include one crystal catching Alice’s fancy. Obviously, each crystal must belong to exactly one piece.</p><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><p>However, an excessively long piece of severed necklaces could not fit Alice’s slim neck. So she wants to know, among all possible severings as requested, what the minimum length of the longest piece from a severed necklace is. She wants you to answer this question.</p><p>Input</p><p>The first line of the input data contains 2 integers 𝑁N and 𝑀M (1≤𝑀≤𝑁&lt;10181≤M≤N&lt;1018 and 𝑀≤106M≤106).</p><p>The second line contains 𝑀M integers, the 𝑖i-th of which represents 𝑛𝑖ni. The 𝑛𝑖ni’s are given in ascending order.</p><p>Output</p><p>You need to output your answer in one line.</p><p>Example</p><p>input</p><p>Copy</p><p>10 4<br>2 5 6 8<br>output</p><p>Copy</p><p>3<br>Note</p><p>As for the example: You can sever the necklace into [1,3],[4,5],[6,7],[8,10][1,3],[4,5],[6,7],[8,10].</p><p>Considering huge scale of data, here is a way provided to help input faster:</p><p>看了题解没看懂（出题人语文水平堪忧，后来自己像明白了还各种写错变量wa了十发，绷不住了</p><p>首先最大值最小的问题一眼二分，关键在于check函数怎么写。首先一个贪心思路是对于从左到右对于每个特殊的宝石在满足左边的需求时尽可能往右取。比如对于题目样例，如果二分到的值是2的话，一开始2作为左端点，尽可能往右取能取到[2,3]这个区间，此时第二个特殊的宝石是5，显然4这个宝石没法被第一个区间覆盖，那么第一个区间的需求就是1，那么枚举到5的时候，首先要满足需求，所以第二个区间只能是[4,5]…如果最终能首尾接上则可行。但这么贪心显然是错的，比如对于样例：</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>我的第一篇文章</title>
+      <link href="/2022/09/04/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+      <url>/2022/09/04/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</url>
+      
+        <content type="html"><![CDATA[<h2 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h2><blockquote><p>CCPC桂林站题解</p></blockquote>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/2022/09/03/hello-world/"/>
+      <url>/2022/09/03/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
