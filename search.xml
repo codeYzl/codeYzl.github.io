@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Java内存分配介绍</title>
+      <link href="/2022/09/05/java/"/>
+      <url>/2022/09/05/java/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Java内存分配介绍"><a href="#Java内存分配介绍" class="headerlink" title="Java内存分配介绍"></a>Java内存分配介绍</h1><h3 id="栈"><a href="#栈" class="headerlink" title="栈"></a>栈</h3><p>方法运行时所进入的内存，变量也是在这里</p><h3 id="堆"><a href="#堆" class="headerlink" title="堆"></a>堆</h3><p>new出来的东西会在这块内存中开辟空间并产生地址</p><h3 id="方法区"><a href="#方法区" class="headerlink" title="方法区"></a>方法区</h3><p>字节码文件加载时进入的内存</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Java基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Java基础 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>2021CCPC广州 C.necklace</title>
       <link href="/2022/09/05/ccpcGZ/"/>
       <url>/2022/09/05/ccpcGZ/</url>
