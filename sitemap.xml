@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.yzlcoder.com/archives/bed3a285.html</loc>
+    
+    <lastmod>2022-09-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.yzlcoder.com/archives/3b534ab8.html</loc>
     
     <lastmod>2022-09-07</lastmod>
@@ -136,6 +145,13 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://www.yzlcoder.com/tags/CF/</loc>
+    <lastmod>2022-09-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
@@ -168,6 +184,13 @@
   
   <url>
     <loc>https://www.yzlcoder.com/categories/%E5%B7%AE%E5%88%86/</loc>
+    <lastmod>2022-09-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.yzlcoder.com/categories/CF/</loc>
     <lastmod>2022-09-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
