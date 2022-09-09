@@ -17,6 +17,31 @@
     
     
     <entry>
+      <title>2022杭电杯第一场 C Backpack(itset优化背包问题)</title>
+      <link href="/archives/5933bb1a.html"/>
+      <url>/archives/5933bb1a.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="2022杭电杯第一场-C-Backpack（bitset优化背包问题"><a href="#2022杭电杯第一场-C-Backpack（bitset优化背包问题" class="headerlink" title="2022杭电杯第一场 C Backpack（bitset优化背包问题)"></a>2022杭电杯第一场 C Backpack（bitset优化背包问题)</h1><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><blockquote><p>Alice has a backpack of capacity m<em>m</em> that she now wants to fill with some items!</p><p>Alice has n<em>n</em> items, each of which has a volume v_i<em>v**i</em> and a value w_i<em>w**i</em>.</p><p>Can a number of items be selected from n items such that the backpack is exactly full (ie the sum of the volumes equals the backpack capacity)? If so, what is the maximum XOR sum of the values of the items in the backpack when the backpack is full?</p></blockquote><h2 id="Input"><a href="#Input" class="headerlink" title="Input"></a>Input</h2><blockquote><p>The first line contains an integer T(T \le 10)<em>T</em>(<em>T</em>≤10) —the number of test cases.</p><p>The first line of each test case contains 2 integers n,m(1 \le n,m &lt; 2^{10})<em>n</em>,<em>m</em>(1≤<em>n</em>,<em>m</em>&lt;210) —the number of items, the capacity of the backpack.</p><p>The next n<em>n</em> lines , each line contains 2 integers v_i,w_i(1 \le v_i,w_i &lt; 2^{10})<em>v**i</em>,<em>w**i</em>(1≤<em>v**i</em>,<em>w**i</em>&lt;210) — the volume and value of the item.</p></blockquote><h2 id="Output"><a href="#Output" class="headerlink" title="Output"></a>Output</h2><blockquote><p>For each test case, output a single line, if the backpack cannot be filled, just output a line of “-1”, otherwise output the largest XOR sum.</p></blockquote><p>Sample output</p><blockquote><p>1</p><p> 5 4</p><p> 2 4</p><p> 1 6</p><p> 2 2</p><p> 2 12</p><p> 1 14</p></blockquote><p>Sample output</p><blockquote><p>14</p></blockquote><h2 id="题目分析"><a href="#题目分析" class="headerlink" title="题目分析"></a>题目分析</h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> DP </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 动态规划 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Linux常见文件管理命令大全</title>
       <link href="/archives/34095c49.html"/>
       <url>/archives/34095c49.html</url>

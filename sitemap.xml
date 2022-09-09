@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.yzlcoder.com/archives/5933bb1a.html</loc>
+    
+    <lastmod>2022-09-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.yzlcoder.com/archives/0.html</loc>
     
     <lastmod>2022-09-09</lastmod>
@@ -232,6 +241,13 @@
   
   <url>
     <loc>https://www.yzlcoder.com/categories/Linux%E5%9F%BA%E7%A1%80/</loc>
+    <lastmod>2022-09-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.yzlcoder.com/categories/DP/</loc>
     <lastmod>2022-09-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
