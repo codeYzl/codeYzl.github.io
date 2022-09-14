@@ -222,7 +222,7 @@
       <link href="/archives/9a7c0487.html"/>
       <url>/archives/9a7c0487.html</url>
       
-        <content type="html"><![CDATA[<h1 id="Java内存分配介绍"><a href="#Java内存分配介绍" class="headerlink" title="Java内存分配介绍"></a>Java内存分配介绍</h1><h3 id="栈"><a href="#栈" class="headerlink" title="栈"></a>栈</h3><p>方法运行时所进入的内存，变量也是在这里</p><h3 id="堆"><a href="#堆" class="headerlink" title="堆"></a>堆</h3><p>new出来的东西会在这块内存中开辟空间并产生地址</p><h3 id="方法区"><a href="#方法区" class="headerlink" title="方法区"></a>方法区</h3><p>字节码文件加载时进入的内存</p><p><img src="C:\Users\11657\Pictures\java.png"></p><h2 id="数组内存分配"><a href="#数组内存分配" class="headerlink" title="数组内存分配"></a>数组内存分配</h2><p>两个数组变量指向同一个数组对象</p><p><img src="C:\Users\11657\Pictures\java.png"></p>]]></content>
+        <content type="html"><![CDATA[<h1 id="Java内存分配介绍"><a href="#Java内存分配介绍" class="headerlink" title="Java内存分配介绍"></a>Java内存分配介绍</h1><h3 id="栈"><a href="#栈" class="headerlink" title="栈"></a>栈</h3><p>方法运行时所进入的内存，变量也是在这里</p><h3 id="堆"><a href="#堆" class="headerlink" title="堆"></a>堆</h3><p>new出来的东西会在这块内存中开辟空间并产生地址</p><h3 id="方法区"><a href="#方法区" class="headerlink" title="方法区"></a>方法区</h3><p>字节码文件加载时进入的内存</p><h2 id="数组内存分配"><a href="#数组内存分配" class="headerlink" title="数组内存分配"></a>数组内存分配</h2><p>两个数组变量指向同一个数组对象</p><p><img src="https://s3.bmp.ovh/imgs/2022/09/14/d4efd66791b98813.png"></p><h2 id="对象的内存机制"><a href="#对象的内存机制" class="headerlink" title="对象的内存机制"></a>对象的内存机制</h2><p>先将类加载到方法区，对象名加载到栈内存，new对象以后在堆内存开辟空间</p><p><img src="https://s3.bmp.ovh/imgs/2022/09/15/28c07adeceb251d9.png"></p>]]></content>
       
       
       <categories>
