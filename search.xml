@@ -168,7 +168,7 @@
       <link href="/archives/34095c49.html"/>
       <url>/archives/34095c49.html</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<h1 id="Linux入门之tmux-vim"><a href="#Linux入门之tmux-vim" class="headerlink" title="Linux入门之tmux vim"></a>Linux入门之tmux vim</h1><h2 id="tmux"><a href="#tmux" class="headerlink" title="tmux"></a>tmux</h2><p>功能1：分屏</p><blockquote><p>tmux</p><p>Ctrl + b + % 新建一个pane 左右平分</p><p>Ctrl + b + “ 新建一个pane，上下平分</p><p>Ctrl + d 关闭一个pane</p></blockquote><p>功能2：</p><h1 id="vim"><a href="#vim" class="headerlink" title="vim"></a>vim</h1><p>功能：<br>    (1) 命令行模式下的文本编辑器。<br>    (2) 根据文件扩展名自动判别编程语言。支持代码缩进、代码高亮等功能。<br>    (3) 使用方式：vim filename<br>        如果已有该文件，则打开它。<br>        如果没有该文件，则打开个一个新的文件，并命名为filename<br>模式：<br>    (1) 一般命令模式<br>        默认模式。命令输入方式：类似于打游戏放技能，按不同字符，即可进行不同操作。可以复制、粘贴、删除文本等。<br>    (2) 编辑模式<br>        在一般命令模式里按下i，会进入编辑模式。<br>        按下ESC会退出编辑模式，返回到一般命令模式。<br>    (3) 命令行模式<br>        在一般命令模式里按下:&#x2F;?三个字母中的任意一个，会进入命令行模式。命令行在最下面。<br>        可以查找、替换、保存、退出、配置编辑器等。<br>操作：<br>    (1) i：进入编辑模式<br>    (2) ESC：进入一般命令模式<br>    (3) h 或 左箭头键：光标向左移动一个字符<br>    (4) j 或 向下箭头：光标向下移动一个字符<br>    (5) k 或 向上箭头：光标向上移动一个字符<br>    (6) l 或 向右箭头：光标向右移动一个字符<br>    (7) n<Space>：n表示数字，按下数字后再按空格，光标会向右移动这一行的n个字符<br>    (8) 0 或 功能键[Home]：光标移动到本行开头<br>    (9) $ 或 功能键[End]：光标移动到本行末尾<br>    (10) G：光标移动到最后一行<br>    (11) :n 或 nG：n为数字，光标移动到第n行<br>    (12) gg：光标移动到第一行，相当于1G<br>    (13) n<Enter>：n为数字，光标向下移动n行<br>    (14) &#x2F;word：向光标之下寻找第一个值为word的字符串。<br>    (15) ?word：向光标之上寻找第一个值为word的字符串。<br>    (16) n：重复前一个查找操作<br>    (17) N：反向重复前一个查找操作<br>    (18) :n1,n2s&#x2F;word1&#x2F;word2&#x2F;g：n1与n2为数字，在第n1行与n2行之间寻找word1这个字符串，并将该字符串替换为word2<br>    (19) :1,$s&#x2F;word1&#x2F;word2&#x2F;g：将全文的word1替换为word2<br>    (20) :1,$s&#x2F;word1&#x2F;word2&#x2F;gc：将全文的word1替换为word2，且在替换前要求用户确认。<br>    (21) v：选中文本<br>    (22) d：删除选中的文本<br>    (23) dd: 删除当前行<br>    (24) y：复制选中的文本<br>    (25) yy: 复制当前行<br>    (26) p: 将复制的数据在光标的下一行&#x2F;下一个位置粘贴<br>    (27) u：撤销<br>    (28) Ctrl + r：取消撤销<br>    (29) 大于号 &gt;：将选中的文本整体向右缩进一次<br>    (30) 小于号 &lt;：将选中的文本整体向左缩进一次<br>    (31) :w 保存<br>    (32) :w! 强制保存<br>    (33) :q 退出<br>    (34) :q! 强制退出<br>    (35) :wq 保存并退出<br>    (36) :set paste 设置成粘贴模式，取消代码自动缩进<br>    (37) :set nopaste 取消粘贴模式，开启代码自动缩进<br>    (38) :set nu 显示行号<br>    (39) :set nonu 隐藏行号<br>    (40) gg&#x3D;G：将全文代码格式化<br>    (41) :noh 关闭查找关键词高亮<br>    (42) Ctrl + q：当vim卡死时，可以取消当前正在执行的命令<br>异常处理：<br>    每次用vim编辑文件时，会自动创建一个.filename.swp的临时文件。<br>    如果打开某个文件时，该文件的swp文件已存在，则会报错。此时解决办法有两种：<br>        (1) 找到正在打开该文件的程序，并退出<br>        (2) 直接删掉该swp文件即可</p>]]></content>
       
       
       <categories>
@@ -284,9 +284,9 @@
             
             <tag> 动态规划 </tag>
             
-            <tag> 树上问题 </tag>
-            
             <tag> 树形DP </tag>
+            
+            <tag> 树上问题 </tag>
             
             <tag> 树上背包 </tag>
             
