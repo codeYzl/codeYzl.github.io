@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://www.yzlcoder.com/archives/682df6fc.html</loc>
+    <loc>https://www.yzlcoder.com/archives/c7d02bc0.html</loc>
     
     <lastmod>2022-10-18</lastmod>
     
@@ -203,13 +203,6 @@
   </url>
   
   <url>
-    <loc>https://www.yzlcoder.com/tags/Codeforces-Round/</loc>
-    <lastmod>2022-10-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.yzlcoder.com/tags/Codeforces/</loc>
     <lastmod>2022-10-18</lastmod>
     <changefreq>weekly</changefreq>
@@ -224,21 +217,14 @@
   </url>
   
   <url>
+    <loc>https://www.yzlcoder.com/tags/Codeforces-Round/</loc>
+    <lastmod>2022-10-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.yzlcoder.com/tags/Shell/</loc>
-    <lastmod>2022-10-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.yzlcoder.com/tags/%E4%BA%8C%E5%88%86/</loc>
-    <lastmod>2022-10-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.yzlcoder.com/tags/%E8%B4%AA%E5%BF%83/</loc>
     <lastmod>2022-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -259,7 +245,28 @@
   </url>
   
   <url>
+    <loc>https://www.yzlcoder.com/tags/%E4%BA%8C%E5%88%86/</loc>
+    <lastmod>2022-10-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.yzlcoder.com/tags/%E8%B4%AA%E5%BF%83/</loc>
+    <lastmod>2022-10-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.yzlcoder.com/tags/CF/</loc>
+    <lastmod>2022-10-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.yzlcoder.com/tags/%E6%A0%91%E5%BD%A2DP/</loc>
     <lastmod>2022-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -274,13 +281,6 @@
   
   <url>
     <loc>https://www.yzlcoder.com/tags/%E6%A0%91%E4%B8%8A%E9%97%AE%E9%A2%98/</loc>
-    <lastmod>2022-10-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.yzlcoder.com/tags/%E6%A0%91%E5%BD%A2DP/</loc>
     <lastmod>2022-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -345,6 +345,13 @@
   </url>
   
   <url>
+    <loc>https://www.yzlcoder.com/categories/%E6%A0%91%E5%BD%A2dp-acm%E7%BB%83%E4%B9%A0/</loc>
+    <lastmod>2022-10-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.yzlcoder.com/categories/Java%E5%9F%BA%E7%A1%80/</loc>
     <lastmod>2022-10-18</lastmod>
     <changefreq>weekly</changefreq>
@@ -353,13 +360,6 @@
   
   <url>
     <loc>https://www.yzlcoder.com/categories/%E6%A0%91%E5%BD%A2%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%E5%9F%BA%E7%A1%80/</loc>
-    <lastmod>2022-10-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.yzlcoder.com/categories/%E6%A0%91%E5%BD%A2dp-acm%E7%BB%83%E4%B9%A0/</loc>
     <lastmod>2022-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
